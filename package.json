@@ -1,0 +1,22 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "generate:sync": "nuxt generate && npx cap sync",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@capacitor/android": "^5.7.2",
+    "@capacitor/cli": "^5.7.2",
+    "@capacitor/core": "^5.7.2",
+    "@capacitor/network": "^5.0.7",
+    "nuxt": "^3.10.3",
+    "vue": "^3.4.19",
+    "vue-router": "^4.3.0"
+  }
+}

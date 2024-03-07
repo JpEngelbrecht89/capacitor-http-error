@@ -1,0 +1,14 @@
+{
+  "appId": "com.example.capacitor.error",
+  "appName": "capacitor-http-error",
+  "webDir": "www",
+  "plugins": {
+    "CapacitorHttp": {
+      "enabled": true
+    }
+  },
+  "server": {
+    "androidScheme": "https",
+    "clearText": true
+  }
+}
