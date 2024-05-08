@@ -7,16 +7,17 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "generate:sync": "nuxt generate && npx cap sync",
+    "cap:open:android": "npx cap open android",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "@capacitor/android": "^5.7.2",
-    "@capacitor/cli": "^5.7.2",
-    "@capacitor/core": "^5.7.2",
-    "@capacitor/network": "^5.0.7",
-    "nuxt": "^3.10.3",
-    "vue": "^3.4.19",
-    "vue-router": "^4.3.0"
+    "@capacitor/android": "^6.0.0",
+    "@capacitor/cli": "^6.0.0",
+    "@capacitor/core": "^6.0.0",
+    "@capacitor/network": "^6.0.0",
+    "nuxt": "^3.11.2",
+    "vue": "^3.4.27",
+    "vue-router": "^4.3.2"
   }
 }
